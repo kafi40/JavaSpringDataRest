@@ -1,4 +1,4 @@
-package ru.kafi.spring.entity;
+package ru.kafi.javaspringdatarest.entity;
 
 import jakarta.persistence.*;
 

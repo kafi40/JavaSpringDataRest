@@ -1,11 +1,7 @@
-package ru.kafi.spring.dao;
+package ru.kafi.javaspringdatarest.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import ru.kafi.spring.entity.Employee;
-
-import java.util.List;
+import ru.kafi.javaspringdatarest.entity.Employee;
 
 public interface EmployeeRepository extends JpaRepository<Employee, Integer> {
-    List<Employee> findAllByName(String name);
-    List<Employee> findAllBySalaryBetween(int min, int max);
 }
